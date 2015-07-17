@@ -3,6 +3,7 @@ package com.bean;
 public class EchoBean {
 	int num;
 	String name;
+	String nn;
 	// constructor injection
 	public EchoBean(int n, String na){
 		System.out.println("(int n, String na) 생성자"+n+"\t"+na);
@@ -21,4 +22,5 @@ public class EchoBean {
 	public String sayEcho(String mesg){
 		return "Hello"+mesg;
 	}
+	
 }
